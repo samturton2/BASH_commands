@@ -30,14 +30,15 @@
 ## Permissions
 - To change file permissions use `chmod` command followed by the permission level and file we would like to edit.
 - syntax is `chmod <value> <file>`
-Value|Meaning
-:----|------:
-777|No restrictions
-755|The files owner may read, write and execute. Others may read and execute
-700|The files owner may read, write and execute. Nobody else has rights
-666|All users may read and write the file
-644|The files owner may read and write. Others may only read
-600|The files owner may read and write. Nobody else has rights
+
+| Value   | Meaning    | 
+| :-------- | ------: | 
+| 777 | No restrictions | 
+| 755 | The files owner may read, write and execute. Others may read and execute | 
+| 700 | The files owner may read, write and execute. Nobody else has rights | 
+| 666 | All users may read and write the file | 
+| 644 | The files owner may read and write. Others may only read | 
+| 600 | The files owner may read and write. Nobody else has rights \| |
 
 - YOu can also change permissions using flag names
 - e.g `chmod +x <file>`
